@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Federo&display=swap");
+
+.container {
+  width: 25rem;
+  border-radius: 1rem;
+  background-color: orange;
+  margin: 0 auto;
+  padding: 1rem;
+  font-family: "Federo", sans-serif;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.container h1 {
+  text-align: center;
+  color: white;
+}
