@@ -4,10 +4,14 @@ import { languages } from "../../helper/data";
 
 const Card = () => {
   return (
-    <div className="container">
+    <div className="container ">
       <h1>Languages</h1>
+
       <div className="card">
-        <Languages data={languages} />
+        {languages.map((item) => {
+          const { name, img, options } = item;
+          return <Languages name={name} img={img} options={options} />;
+        })}
       </div>
     </div>
   );
